@@ -1,5 +1,20 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-  background-color: blue;
-}
+html, body {height: 100%; padding: 0; margin: 0;}
+div {position: fixed; width: 50%; height: 50%;}
+#eat {top: 0; left: 0; background: #DDD;}
+#play {top: 0; left: 50%; background: #AAA;}
+#fight {top: 50%; left: 0; background: #777;}
+#sleep {top: 50%; left: 50%; background: #444;}
+
+.playContainer {text-align: right;}
+
+.sleepContainer {text-align: right;}
+
+.sleepTitle {margin-right: 30px;}
+
+.playTitle {margin-right: 30px;}
+
+.eatTitle {margin-left: 30px;}
+
+.fightTitle {margin-left: 30px;}
