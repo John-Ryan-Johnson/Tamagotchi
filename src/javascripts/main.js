@@ -9,6 +9,18 @@ const init = () => {
   play.printPlay();
   fight.printFight();
   sleep.printSleep();
+  eat.subtractFromEatBar();
+  eat.badChoice();
+  eat.goodChoice();
+  play.subtractFromPlayBar();
+  play.superFunChoice();
+  play.slightlyFunChoice();
+  fight.subtractFromFightBar();
+  fight.braveChoice();
+  fight.violentChoice();
+  sleep.subtractFromSleepBar();
+  sleep.slumberChoice();
+  sleep.napChoice();
 };
 
 init();
