@@ -2,14 +2,24 @@
 
 html, body {height: 100%; padding: 0; margin: 0;}
 div {position: fixed; width: 50%; height: 50%;}
-#eat {top: 0; left: 0; background: #DDD;}
-#play {top: 0; left: 50%; background: #AAA;}
-#fight {top: 50%; left: 0; background: #777;}
-#sleep {top: 50%; left: 50%; background: #444;}
+#eat {top: 0; left: 0; background: #2460A7FF;}
+#play {top: 0; left: 50%; background: #85B3D1FF;}
+#fight {top: 50%; left: 0; background: #B3C7D6FF;}
+#sleep {top: 50%; left: 50%; background: #D9B48FFF;}
 
-.playContainer {text-align: right;}
 
-.sleepContainer {text-align: right;}
+// Containers for quadrants
+
+.eatContainer {display: flex; flex-direction: column;}
+
+.fightContainer {display: flex; flex-direction: column;}
+
+.playContainer {text-align: right; display: flex; flex-direction: column;align-items: flex-end;}
+
+.sleepContainer {text-align: right; display: flex; flex-direction: column;align-items: flex-end;}
+
+
+// Titles of quadrants
 
 .sleepTitle {margin-right: 30px;}
 
@@ -18,3 +28,34 @@ div {position: fixed; width: 50%; height: 50%;}
 .eatTitle {margin-left: 30px;}
 
 .fightTitle {margin-left: 30px;}
+
+// Progress Bars for each quadrant
+
+#eatBar {margin-left: 30px; border: 1px solid black;}
+
+#fightBar {margin-left: 30px; border: 1px solid black;}
+
+#playBar {text-align: right; margin-right: 30px; border: 1px solid black;}
+
+#sleepBar {text-align: right; margin-right: 30px; border: 1px solid black;}
+
+// Buttons for each quadrant
+
+#goodFood {width: 100px; height: 30px; text-align: center; border-radius: 5px;    margin-left: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+
+#badFood {width: 100px; height: 30px; text-align: center; border-radius: 5px; margin-left: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+
+#afraidMood {width: 100px; height: 30px; text-align: center; border-radius: 5px; margin-left: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+
+#violentMood {width: 100px; height: 30px; text-align: center; border-radius: 5px; margin-left: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+
+#goodPlay {width: 100px; height: 30px; text-align: center; border-radius: 5px; margin-right: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+
+#badPlay {width: 100px; height: 30px; text-align: center; border-radius: 5px; margin-right: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+
+#goodSleep {width: 100px; height: 30px; text-align: center; border-radius: 5px; margin-right: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+
+#badSleep {width: 100px; height: 30px; text-align: center; border-radius: 5px; margin-right: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+
+button:hover {background-color: green;}
+
