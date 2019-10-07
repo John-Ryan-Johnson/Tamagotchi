@@ -59,3 +59,14 @@ html, body {height: 100%; padding: 0; margin: 0;}
 
 button:hover {background-color: green;}
 
+#pet {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    height: 550px;
+    width: 350px;
+}

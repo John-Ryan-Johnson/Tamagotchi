@@ -3,6 +3,8 @@ import eat from './components/eat';
 import play from './components/play';
 import fight from './components/fight';
 import sleep from './components/sleep';
+import petImage from './components/petImage';
+
 
 const init = () => {
   eat.printEat();
@@ -21,6 +23,7 @@ const init = () => {
   sleep.subtractFromSleepBar();
   sleep.slumberChoice();
   sleep.napChoice();
+  petImage.printImage();
 };
 
 init();

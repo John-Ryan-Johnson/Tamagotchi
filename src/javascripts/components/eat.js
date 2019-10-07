@@ -38,7 +38,7 @@ const subtractFromEatBar = () => {
   document.getElementById('eatBar').value = full;
   full -= 1;
   const eatSubtractByTime = () => {
-    setInterval(subtractFromEatBar, 3000);
+    setInterval(subtractFromEatBar, 20000);
   };
   eatSubtractByTime();
 };
