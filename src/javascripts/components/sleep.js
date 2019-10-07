@@ -38,7 +38,7 @@ const subtractFromSleepBar = () => {
   document.getElementById('sleepBar').value = energy;
   energy -= 1;
   const sleepSubtractByTime = () => {
-    setInterval(subtractFromSleepBar, 3000);
+    setInterval(subtractFromSleepBar, 20000);
   };
   sleepSubtractByTime();
 };

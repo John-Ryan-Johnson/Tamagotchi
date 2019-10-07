@@ -38,7 +38,7 @@ const subtractFromPlayBar = () => {
   document.getElementById('playBar').value = fun;
   fun -= 1;
   const playSubtractByTime = () => {
-    setInterval(subtractFromPlayBar, 3000);
+    setInterval(subtractFromPlayBar, 20000);
   };
   playSubtractByTime();
 };

@@ -38,7 +38,7 @@ const subtractFromFightBar = () => {
   document.getElementById('fightBar').value = strength;
   strength -= 1;
   const fightSubtractByTime = () => {
-    setInterval(subtractFromFightBar, 3000);
+    setInterval(subtractFromFightBar, 20000);
   };
   fightSubtractByTime();
 };
