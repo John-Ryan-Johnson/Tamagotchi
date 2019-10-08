@@ -1,0 +1,12 @@
+#eat {position: fixed; top: 0; left: 0; background: #2460A7FF;}
+
+.eatContainer {display: flex; flex-direction: column;}
+
+.eatTitle {margin-left: 30px;}
+
+#eatBar {margin-left: 30px; border: 1px solid black;}
+
+#goodFood {width: 100px; height: 30px; text-align: center; border-radius: 5px;    margin-left: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+
+#badFood {width: 100px; height: 30px; text-align: center; border-radius: 5px; margin-left: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+

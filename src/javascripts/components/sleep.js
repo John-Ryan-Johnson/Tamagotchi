@@ -1,4 +1,5 @@
 import utilities from '../helpers/utilities';
+import './sleep.scss';
 
 let energy = 50;
 

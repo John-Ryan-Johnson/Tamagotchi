@@ -1,4 +1,5 @@
 import utilities from '../helpers/utilities';
+import './eat.scss';
 
 let full = 100;
 
@@ -36,7 +37,7 @@ const badChoice = () => {
 
 const subtractFromEatBar = () => {
   document.getElementById('eatBar').value = full;
-  full -= 1;
+  full -= 10;
   const eatSubtractByTime = () => {
     setInterval(subtractFromEatBar, 20000);
   };

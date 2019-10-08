@@ -1,4 +1,5 @@
 import utilities from '../helpers/utilities';
+import './fight.scss';
 
 let strength = 100;
 
@@ -36,7 +37,7 @@ const violentChoice = () => {
 
 const subtractFromFightBar = () => {
   document.getElementById('fightBar').value = strength;
-  strength -= 1;
+  strength -= 7;
   const fightSubtractByTime = () => {
     setInterval(subtractFromFightBar, 20000);
   };
