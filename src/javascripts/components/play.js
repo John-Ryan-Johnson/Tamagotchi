@@ -1,4 +1,5 @@
 import utilities from '../helpers/utilities';
+import './play.scss';
 
 let fun = 50;
 
@@ -36,7 +37,7 @@ const slightlyFunChoice = () => {
 
 const subtractFromPlayBar = () => {
   document.getElementById('playBar').value = fun;
-  fun -= 1;
+  fun -= 10;
   const playSubtractByTime = () => {
     setInterval(subtractFromPlayBar, 20000);
   };

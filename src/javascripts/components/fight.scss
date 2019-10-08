@@ -1,0 +1,12 @@
+#fight {position: fixed; top: 50%; left: 0; background: #B3C7D6FF;}
+
+.fightContainer {display: flex; flex-direction: column;}
+
+.fightTitle {margin-left: 30px;}
+
+#fightBar {margin-left: 30px; border: 1px solid black;}
+
+#afraidMood {width: 100px; height: 30px; text-align: center; border-radius: 5px; margin-left: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+
+#violentMood {width: 100px; height: 30px; text-align: center; border-radius: 5px; margin-left: 30px; margin-top: 5px; cursor: pointer; outline: none;}
+

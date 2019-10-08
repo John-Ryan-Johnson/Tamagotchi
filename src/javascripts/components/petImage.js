@@ -1,4 +1,5 @@
 import utilities from '../helpers/utilities';
+import './petImage.scss';
 
 const printImage = () => {
   const domString = `
