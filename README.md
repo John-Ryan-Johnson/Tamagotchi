@@ -13,3 +13,5 @@ Use this application to play with your virtual pet. You can feed, fight, play an
  * Clone down this project
  * Install http-server from npm At the root of this project, run the following command: hs -p 8080
  * In your browser, navigate to https://localhost:8080 
+
+ https://tamagotchi-62cef.firebaseapp.com/
